@@ -1,16 +1,19 @@
-## Hi there 👋
+# Shubh Avsar 🎊
 
-<!--
-**Shubhavsar/Shubhavsar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A modern and responsive event management website for **Shubh Avsar Events**.  
+This website highlights our services, portfolio, special effects, and contact options to help clients plan unforgettable celebrations.
 
-Here are some ideas to get you started:
+## 🚀 Features
+- Beautiful landing page with smooth scrolling
+- Services section (decor, artists, lighting, effects, etc.)
+- Portfolio with images & videos
+- Contact form with email integration
+- Responsive design for all devices
+- Built with React + Vite for fast performance
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS
+- **Animations & Effects:** Framer Motion, Three.js (optional)
+- **Deployment:** Vercel / Netlify
+
+## 📂 Project Structure
