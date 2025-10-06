@@ -41,3 +41,44 @@
 .read-the-docs {
   color: #888;
 }
+
+/* src/index.css (or main global css) — paste below your Tailwind directives */
+:root{
+  --scroll-track-start: #fff6f0;
+  --scroll-track-end: #fceabb;
+  --scroll-thumb-start: #8b1f2b; /* light maroon */
+  --scroll-thumb-end: #d89b18;   /* golden yellow */
+  --scroll-border: rgba(252,234,187,0.9);
+}
+
+/* ensure these are inside the base layer so Tailwind doesn't purge them */
+@layer base {
+  /* global webkit scrollbar */
+  *::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, var(--scroll-track-start), var(--scroll-track-end));
+    border-radius: 9999px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--scroll-thumb-start), var(--scroll-thumb-end));
+    border-radius: 9999px;
+    border: 3px solid var(--scroll-border);
+    min-height: 40px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #a22b42, #f0b84a);
+    box-shadow: 0 0 8px rgba(255,215,0,0.25);
+  }
+
+  /* Firefox */
+  html, body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-thumb-end) var(--scroll-track-start);
+  }
+}
