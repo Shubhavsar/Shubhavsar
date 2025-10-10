@@ -87,10 +87,10 @@ export default function Services3D() {
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
 
   const services = [
-    { title: "Intimate Celebrations", description: "Small, personal gatherings with elegance.", color: "#B22222", image: "/shubhavsar/images/intimate.jpg" },
-    { title: "Grand Events", description: "Lavish weddings, corporate galas, and more.", color: "#FFD700", image: "/shubhavsar/images/grand.jpg" },
-    { title: "Decoration Services", description: "Creative floral, lighting, and theme decor.", color: "#DAA520", image: "/shubhavsar/images/decor.jpg" },
-    { title: "Full Event Management", description: "Complete planning and execution of your events.", color: "#CD853F", image: "/shubhavsar/images/management.jpg" },
+    { title: "Intimate Celebrations", description: "Small, personal gatherings with elegance.", color: "#B22222", image: "public/images/intimate.jpg" },
+    { title: "Grand Events", description: "Lavish weddings, corporate galas, and more.", color: "#FFD700", image: "public/images/grand.jpg" },
+    { title: "Decoration Services", description: "Creative floral, lighting, and theme decor.", color: "#DAA520", image: "public/images/decor.jpg" },
+    { title: "Full Event Management", description: "Complete planning and execution of your events.", color: "#CD853F", image: "public/images/management.jpg" },
   ];
 
   const radius = 6;

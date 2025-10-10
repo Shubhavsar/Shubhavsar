@@ -8,13 +8,13 @@ export default function Portfolio() {
 
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
         <div className="rounded-lg overflow-hidden shadow">
-          <video src="/shubhavsar/videos/video1.mp4" autoPlay muted loop className="w-full h-full object-cover" />
+          <video src="public/videos/video1.mp4" autoPlay muted loop className="w-full h-full object-cover" />
         </div>
         <div className="rounded-lg overflow-hidden shadow">
-          <video src="/shubhavsar/videos/video2.mp4" autoPlay muted loop className="w-full h-full object-cover" />
+          <video src="public/videos/video2.mp4" autoPlay muted loop className="w-full h-full object-cover" />
         </div>
         <div className="rounded-lg overflow-hidden shadow">
-          <video src="/shubhavsar/videos/video3.mp4" autoPlay muted loop className="w-full h-full object-cover" />
+          <video src="public/videos/video3.mp4" autoPlay muted loop className="w-full h-full object-cover" />
         </div>
       </div>
     </div>

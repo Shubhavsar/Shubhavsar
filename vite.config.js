@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/shubhavsar/', // GitHub Pages subpath
+  base: '/Shubhavsar/', // GitHub Pages subpath
 })

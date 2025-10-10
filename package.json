@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://kalptaruevents.github.io/shubhavsar/",
+ "homepage": "https://shubhavsar.github.io/Shubhavsar/",
   "dependencies": {
     "@react-three/drei": "^9.48.0",
     "@react-three/fiber": "^8.12.1",
